@@ -29,8 +29,14 @@ el corte ripplea todos los tracks de la secuencia para mantener el sync.
 
 ## Instalación
 
+**Mac (recomendado):** abrir Terminal, pegar esta línea, Enter:
+```
+curl -fsSL https://raw.githubusercontent.com/nachorodriguezpirotta-tech/revolv-autocut-panel/main/install.sh | bash
+```
+Reiniciar Premiere. (El `.command` por WhatsApp/Mail lo bloquea macOS como
+"dañado" — usar la línea de Terminal evita ese problema.)
+
 **Windows:** doble click en `instalar-windows.bat`, reiniciar Premiere.
-**Mac:** click derecho → Abrir sobre `instalar-mac.command`, reiniciar Premiere.
 
 El instalador resuelve solo las dependencias si faltan: Python (en Windows
 lo instala con winget si no está), `faster-whisper` y `ffmpeg` (en Windows
